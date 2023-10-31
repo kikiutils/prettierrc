@@ -1,0 +1,18 @@
+{
+  "name": "@kikiutils/prettierrc",
+  "version": "1.0.0",
+  "description": "Base prettierrc for my packages.",
+  "license": "MIT",
+  "author": {
+    "name": "kiki-kanri"
+  },
+  "homepage": "https://github.com/kiki-kanri/prettierrc#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiki-kanri/prettierrc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kiki-kanri/prettierrc/issues"
+  },
+  "main": ".prettierrc"
+}

@@ -1,0 +1,32 @@
+{
+  "endOfLine": "lf",
+  "semi": false,
+  "overrides": [
+    {
+      "files": ["*.d.ts", "*.js", "*.ts"],
+      "options": {
+        "printWidth": 256,
+        "singleQuote": true,
+        "semi": true,
+        "useTabs": true,
+        "tabWidth": 4,
+        "trailingComma": "none"
+      }
+    },
+    {
+      "files": ["*.json", "*.jsonc"],
+      "options": {
+        "useTabs": false,
+        "tabWidth": 2
+      }
+    },
+    {
+      "files": ["*.py"],
+      "options": {
+        "singleQuote": true,
+        "useTabs": false,
+        "tabWidth": 4
+      }
+    }
+  ]
+}
