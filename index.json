@@ -1,5 +1,6 @@
 {
   "endOfLine": "lf",
+  "multilineArraysWrapThreshold": 1,
   "semi": false,
   "overrides": [
     {
@@ -20,11 +21,17 @@
       }
     },
     {
-      "files": ["*.json", "*.jsonc"],
+      "files": [
+        "*.json",
+        "*.jsonc"
+      ],
       "options": {
         "useTabs": false,
         "tabWidth": 2
       }
     }
+  ],
+  "plugins": [
+    "./node_modules/prettier-plugin-multiline-arrays"
   ]
 }
