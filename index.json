@@ -3,7 +3,13 @@
   "semi": false,
   "overrides": [
     {
-      "files": ["*.d.ts", "*.js", "*.ts"],
+      "files": [
+        "*.cjs",
+        "*.d.ts",
+        "*.js",
+        "*.mjs",
+        "*.ts"
+      ],
       "options": {
         "printWidth": 256,
         "singleQuote": true,
