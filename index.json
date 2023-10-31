@@ -29,6 +29,19 @@
         "useTabs": false,
         "tabWidth": 2
       }
+    },
+    {
+      "files": [
+        "*.vue"
+      ],
+      "options": {
+        "printWidth": 128,
+        "singleQuote": true,
+        "semi": true,
+        "useTabs": true,
+        "tabWidth": 4,
+        "trailingComma": "none"
+      }
     }
   ],
   "plugins": [
