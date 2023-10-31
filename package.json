@@ -14,5 +14,8 @@
   "bugs": {
     "url": "https://github.com/kiki-kanri/prettierrc/issues"
   },
-  "main": "index.json"
+  "main": "index.json",
+  "dependencies": {
+    "prettier": "^3.0.3"
+  }
 }
