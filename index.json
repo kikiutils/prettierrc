@@ -45,6 +45,6 @@
     }
   ],
   "plugins": [
-    "./node_modules/prettier-plugin-multiline-arrays"
+    "prettier-plugin-multiline-arrays"
   ]
 }
