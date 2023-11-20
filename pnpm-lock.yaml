@@ -6,59 +6,61 @@ settings:
 
 dependencies:
   prettier:
-    specifier: ^3.0.3
-    version: 3.0.3
+    specifier: ^3.1.0
+    version: 3.1.0
   prettier-plugin-multiline-arrays:
-    specifier: ^3.0.0
-    version: 3.0.0(prettier@3.0.3)
+    specifier: ^3.0.1
+    version: 3.0.1(prettier@3.1.0)
 
 packages:
 
-  /@augment-vir/common@13.5.0:
-    resolution: {integrity: sha512-kOnAOShZTaOJ8glYyi2K3hfiYV5zQyjpfc4jmHm5lySAFNMpOjKA7pZxpl8n3RCIHAt+nFP64vuxtSI6jSWOZw==}
-    dependencies:
-      type-fest: 3.13.1
-    dev: false
-
-  /@augment-vir/common@21.5.0:
-    resolution: {integrity: sha512-IIhYTXCVe7prxo+0cidZ+/eFUMvGPljCG0WWVc3zR7DYww9UwEhR6X3Lr1z6AlInw6msyI24PJH/6vIM9EvagA==}
+  /@augment-vir/common@22.0.0:
+    resolution: {integrity: sha512-0Y9EoZTVmwOOGO/D9aqFXdMj7qihyP3EbROTuA+N4GRNZicOKmEA5yGuL0V7qR3egZDlvkF8m1ka27VUbVyDzg==}
     dependencies:
       browser-or-node: 2.1.1
-      type-fest: 4.6.0
+      run-time-assertions: 0.2.1
+      type-fest: 4.8.1
     dev: false
 
   /browser-or-node@2.1.1:
     resolution: {integrity: sha512-8CVjaLJGuSKMVTxJ2DpBl5XnlNDiT4cQFeuCJJrvJmts9YrTZDizTX7PjC2s6W4x+MBGZeEY6dGMrF04/6Hgqg==}
     dev: false
 
-  /prettier-plugin-multiline-arrays@3.0.0(prettier@3.0.3):
-    resolution: {integrity: sha512-qEfctOpCfnTztyLRoVkKvYpOLeTiG1Sq29Guk9zMs5YeZeoRZXO6JDdWj9OJyswJHmIrOEuPCmpdS7yxkyIatw==}
+  /expect-type@0.15.0:
+    resolution: {integrity: sha512-yWnriYB4e8G54M5/fAFj7rCIBiKs1HAACaY13kCz6Ku0dezjS9aMcfcdVK2X8Tv2tEV1BPz/wKfQ7WA4S/d8aA==}
+    dev: false
+
+  /prettier-plugin-multiline-arrays@3.0.1(prettier@3.1.0):
+    resolution: {integrity: sha512-xRwqy/6eMU7234W3/XFjviTn00X2JlXyiUUdpFk4R0HbLJ0QJDA1i5fLZnVQrcSrWzidrHvs1SauEpFsBDxWAQ==}
     peerDependencies:
       prettier: ^3.0.0
     dependencies:
-      '@augment-vir/common': 21.5.0
-      prettier: 3.0.3
-      proxy-vir: 0.0.1
+      '@augment-vir/common': 22.0.0
+      prettier: 3.1.0
+      proxy-vir: 0.0.2
     dev: false
 
-  /prettier@3.0.3:
-    resolution: {integrity: sha512-L/4pUDMxcNa8R/EthV08Zt42WBO4h1rarVtK0K+QJG0X187OLo7l699jWw0GKuwzkPQ//jMFA/8Xm6Fh3J/DAg==}
+  /prettier@3.1.0:
+    resolution: {integrity: sha512-TQLvXjq5IAibjh8EpBIkNKxO749UEWABoiIZehEPiY4GNpVdhaFKqSTu+QrlU6D2dPAfubRmtJTi4K4YkQ5eXw==}
     engines: {node: '>=14'}
     hasBin: true
     dev: false
 
-  /proxy-vir@0.0.1:
-    resolution: {integrity: sha512-K3sv2I9kigOqt17hMhvWjSiwx90hpxxD3rN+meVQhrGKoxhVbt82ulkm3i1KlenVIMS1KFskt/vltMlGHVQrMw==}
+  /proxy-vir@0.0.2:
+    resolution: {integrity: sha512-4yP9ol7cFb1lUwYyj0B1+M+EpQz7tAu7PTgHCqOQenn0abXOJ3epfS3d2e+9zTgpBfYFzutL5tD2hyFz/smXyw==}
     dependencies:
-      '@augment-vir/common': 13.5.0
+      '@augment-vir/common': 22.0.0
     dev: false
 
-  /type-fest@3.13.1:
-    resolution: {integrity: sha512-tLq3bSNx+xSpwvAJnzrK0Ep5CLNWjvFTOp71URMaAEWBfRb9nnJiBoUe0tF8bI4ZFO3omgBR6NvnbzVUT3Ly4g==}
-    engines: {node: '>=14.16'}
+  /run-time-assertions@0.2.1:
+    resolution: {integrity: sha512-nJrck8ekwrfilGPgGREZlNDR8US7Q+aVMWAWGKxyeeEf0X8TrPM9x5aGvHiPPsGszteUfZrABepByxgHCSWbag==}
+    dependencies:
+      '@augment-vir/common': 22.0.0
+      expect-type: 0.15.0
+      type-fest: 4.8.1
     dev: false
 
-  /type-fest@4.6.0:
-    resolution: {integrity: sha512-rLjWJzQFOq4xw7MgJrCZ6T1jIOvvYElXT12r+y0CC6u67hegDHaxcPqb2fZHOGlqxugGQPNB1EnTezjBetkwkw==}
+  /type-fest@4.8.1:
+    resolution: {integrity: sha512-ShaaYnjf+0etG8W/FumARKMjjIToy/haCaTjN2dvcewOSoNqCQzdgG7m2JVOlM5qndGTHjkvsrWZs+k/2Z7E0Q==}
     engines: {node: '>=16'}
     dev: false
