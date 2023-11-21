@@ -32,16 +32,8 @@
     },
     {
       "files": [
-        "*.json",
-        "*.jsonc"
-      ],
-      "options": {
-        "useTabs": false,
-        "tabWidth": 2
-      }
-    },
-    {
-      "files": [
+        "*.htm",
+        "*.html",
         "*.vue"
       ],
       "options": {
@@ -50,6 +42,16 @@
         "semi": true,
         "useTabs": true,
         "tabWidth": 4
+      }
+    },
+    {
+      "files": [
+        "*.json",
+        "*.jsonc"
+      ],
+      "options": {
+        "useTabs": false,
+        "tabWidth": 2
       }
     }
   ],
