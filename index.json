@@ -1,6 +1,6 @@
 {
   "endOfLine": "lf",
-  "multilineArraysWrapThreshold": 1,
+  "multilineArraysWrapThreshold": 2,
   "overrides": [
     {
       "files": [
