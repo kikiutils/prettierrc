@@ -1,66 +1,88 @@
-lockfileVersion: '6.0'
+lockfileVersion: '9.0'
 
 settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-dependencies:
-  prettier:
-    specifier: ^3.1.0
-    version: 3.1.0
-  prettier-plugin-multiline-arrays:
-    specifier: ^3.0.1
-    version: 3.0.1(prettier@3.1.0)
+importers:
+
+  .:
+    dependencies:
+      prettier:
+        specifier: ^3.2.5
+        version: 3.2.5
+      prettier-plugin-multiline-arrays:
+        specifier: ^3.0.4
+        version: 3.0.4(prettier@3.2.5)
 
 packages:
 
-  /@augment-vir/common@22.0.0:
-    resolution: {integrity: sha512-0Y9EoZTVmwOOGO/D9aqFXdMj7qihyP3EbROTuA+N4GRNZicOKmEA5yGuL0V7qR3egZDlvkF8m1ka27VUbVyDzg==}
-    dependencies:
-      browser-or-node: 2.1.1
-      run-time-assertions: 0.2.1
-      type-fest: 4.8.1
-    dev: false
+  '@augment-vir/common@23.4.0':
+    resolution: {integrity: sha512-QIrJ1doD00TNbOzeVrk9KgPTzRlIjayxERnhtbQjK/AFPj5yElcB03GbnGdQZPzws/R+5gfMM5cZiH7QyBP+Kg==}
 
-  /browser-or-node@2.1.1:
+  '@augment-vir/common@26.4.0':
+    resolution: {integrity: sha512-rQoLA+t3bbvs269KvZYKZ76WO7Ofp468mqahsI4RAvPjJaOJ/6lCo49HgvUjnFlv7DoEVbTMfHT3G3+VztNnsA==}
+
+  browser-or-node@2.1.1:
     resolution: {integrity: sha512-8CVjaLJGuSKMVTxJ2DpBl5XnlNDiT4cQFeuCJJrvJmts9YrTZDizTX7PjC2s6W4x+MBGZeEY6dGMrF04/6Hgqg==}
-    dev: false
 
-  /expect-type@0.15.0:
+  expect-type@0.15.0:
     resolution: {integrity: sha512-yWnriYB4e8G54M5/fAFj7rCIBiKs1HAACaY13kCz6Ku0dezjS9aMcfcdVK2X8Tv2tEV1BPz/wKfQ7WA4S/d8aA==}
-    dev: false
 
-  /prettier-plugin-multiline-arrays@3.0.1(prettier@3.1.0):
-    resolution: {integrity: sha512-xRwqy/6eMU7234W3/XFjviTn00X2JlXyiUUdpFk4R0HbLJ0QJDA1i5fLZnVQrcSrWzidrHvs1SauEpFsBDxWAQ==}
+  prettier-plugin-multiline-arrays@3.0.4:
+    resolution: {integrity: sha512-Oj9ZfEisLOF0did1CGXXQLTA0WEChT2pfI06pNA1PbvWqbys9a5xoys6DoZlDL+Uio0uW1XwKZkeKMAkG1EEfQ==}
     peerDependencies:
-      prettier: ^3.0.0
-    dependencies:
-      '@augment-vir/common': 22.0.0
-      prettier: 3.1.0
-      proxy-vir: 0.0.2
-    dev: false
+      prettier: '>=3.0.0'
 
-  /prettier@3.1.0:
-    resolution: {integrity: sha512-TQLvXjq5IAibjh8EpBIkNKxO749UEWABoiIZehEPiY4GNpVdhaFKqSTu+QrlU6D2dPAfubRmtJTi4K4YkQ5eXw==}
+  prettier@3.2.5:
+    resolution: {integrity: sha512-3/GWa9aOC0YeD7LUfvOG2NiDyhOWRvt1k+rcKhOuYnMY24iiCphgneUfJDyFXd6rZCAnuLBv6UeAULtrhT/F4A==}
     engines: {node: '>=14'}
     hasBin: true
-    dev: false
 
-  /proxy-vir@0.0.2:
-    resolution: {integrity: sha512-4yP9ol7cFb1lUwYyj0B1+M+EpQz7tAu7PTgHCqOQenn0abXOJ3epfS3d2e+9zTgpBfYFzutL5tD2hyFz/smXyw==}
-    dependencies:
-      '@augment-vir/common': 22.0.0
-    dev: false
+  proxy-vir@1.0.0:
+    resolution: {integrity: sha512-WV1gkBxUOwLSz0Bn09tisIqLK7leAqtFm/474t3L0hQKJw7/gdrkGcWw0/OT1PhSy+TDS6swfq7Niuoq3XJhkQ==}
 
-  /run-time-assertions@0.2.1:
-    resolution: {integrity: sha512-nJrck8ekwrfilGPgGREZlNDR8US7Q+aVMWAWGKxyeeEf0X8TrPM9x5aGvHiPPsGszteUfZrABepByxgHCSWbag==}
-    dependencies:
-      '@augment-vir/common': 22.0.0
-      expect-type: 0.15.0
-      type-fest: 4.8.1
-    dev: false
+  run-time-assertions@1.2.0:
+    resolution: {integrity: sha512-cQwqdopGyGpJytXHPYJoCHzt2rr+VzZyW3/bXD8kuKujqDuTtOc0Y6DrlLU6a//wnQogznA7n2LFEIar2Pa2cA==}
 
-  /type-fest@4.8.1:
-    resolution: {integrity: sha512-ShaaYnjf+0etG8W/FumARKMjjIToy/haCaTjN2dvcewOSoNqCQzdgG7m2JVOlM5qndGTHjkvsrWZs+k/2Z7E0Q==}
+  type-fest@4.15.0:
+    resolution: {integrity: sha512-tB9lu0pQpX5KJq54g+oHOLumOx+pMep4RaM6liXh2PKmVRFF+/vAtUP0ZaJ0kOySfVNjF6doBWPHhBhISKdlIA==}
     engines: {node: '>=16'}
-    dev: false
+
+snapshots:
+
+  '@augment-vir/common@23.4.0':
+    dependencies:
+      browser-or-node: 2.1.1
+      run-time-assertions: 1.2.0
+      type-fest: 4.15.0
+
+  '@augment-vir/common@26.4.0':
+    dependencies:
+      browser-or-node: 2.1.1
+      run-time-assertions: 1.2.0
+      type-fest: 4.15.0
+
+  browser-or-node@2.1.1: {}
+
+  expect-type@0.15.0: {}
+
+  prettier-plugin-multiline-arrays@3.0.4(prettier@3.2.5):
+    dependencies:
+      '@augment-vir/common': 23.4.0
+      prettier: 3.2.5
+      proxy-vir: 1.0.0
+
+  prettier@3.2.5: {}
+
+  proxy-vir@1.0.0:
+    dependencies:
+      '@augment-vir/common': 23.4.0
+
+  run-time-assertions@1.2.0:
+    dependencies:
+      '@augment-vir/common': 26.4.0
+      expect-type: 0.15.0
+      type-fest: 4.15.0
+
+  type-fest@4.15.0: {}
