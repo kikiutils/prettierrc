@@ -10,7 +10,7 @@
   },
   "main": "index.json",
   "dependencies": {
-    "prettier": "^3.2.5",
-    "prettier-plugin-multiline-arrays": "^3.0.4"
+    "prettier": "^3.3.0",
+    "prettier-plugin-multiline-arrays": "^3.0.6"
   }
 }
