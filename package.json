@@ -8,7 +8,7 @@
     "type": "git",
     "url": "git+https://github.com/kiki-kanri/prettierrc.git"
   },
-  "main": "index.json",
+  "main": "./index.json",
   "dependencies": {
     "prettier": "^3.3.3",
     "prettier-plugin-multiline-arrays": "^3.0.6"
